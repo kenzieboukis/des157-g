@@ -1,0 +1,73 @@
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding-top: 50px;
+text-align: center;
+}
+
+.mySketch{
+  height: 250px;
+  width: 800px;
+}
+
+header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+section{
+  text-align: center;
+  grid-column: 1;
+}
+
+aside{
+  text-align: center;
+  grid-column: 2;
+}
+
+main{
+  text-align: center;
+  grid-column: 3;
+}
+
+h1{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #d3c4be;
+
+}
+
+h2{
+  color: #999999;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+a{
+  color: #d3c4be;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footlink{
+  padding-top: 20px;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d3c4be;
+  text-align: center;
+}
