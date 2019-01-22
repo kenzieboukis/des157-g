@@ -35,6 +35,11 @@ h2{
   text-align: center;
 }
 
+.footlink{
+  padding-top: 20px;
+  color: white;
+}
+
 .conflictMain{
   height: 60%;
   display: block;
@@ -51,17 +56,6 @@ p{
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-.brainstorm{
-  width: 50%;
-  height: 50%;
-}
-
-.footlink{
-  padding-top: 20px;
-  color: white;
-}
-
 footer {
   position: fixed;
   height: 50px;
