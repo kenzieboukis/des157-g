@@ -33,11 +33,9 @@ main{
 }
 
 h1{
-  padding-top: 10px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
   color: #d3c4be;
-
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
 }
 
 h2{
@@ -55,6 +53,23 @@ a{
   color: #d3c4be;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+}
+
+.conflictMain{
+  height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .brainstorm{
