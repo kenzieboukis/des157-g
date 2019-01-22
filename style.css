@@ -17,19 +17,10 @@ header{
   width: 60%;
 }
 
-section{
-  text-align: center;
-  grid-column: 1;
-}
-
-aside{
-  text-align: center;
-  grid-column: 2;
-}
-
-main{
-  text-align: center;
-  grid-column: 3;
+a{
+  color: #d3c4be;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
 h1{
@@ -39,20 +30,9 @@ h1{
 }
 
 h2{
-  color: #999999;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-ul{
-  list-style: none;
-  text-align: center;
-}
-
-a{
   color: #d3c4be;
   font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
+  text-align: center;
 }
 
 .conflictMain{
