@@ -29,8 +29,8 @@ h1{
   padding-left: 50px;
 }
 
-li{
-text-decoration: none;
+ul{
+list-style-type: none;
 }
 
 h2{
@@ -42,6 +42,11 @@ h2{
 .footlink{
   padding-top: 20px;
   color: white;
+}
+
+.brainstorm{
+  width: 50%;
+  height: 50%;
 }
 
 .conflictMain{
