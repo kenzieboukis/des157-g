@@ -29,6 +29,10 @@ h1{
   padding-left: 50px;
 }
 
+li{
+text-decoration: none;
+}
+
 h2{
   color: #d3c4be;
   font-family: 'Montserrat', sans-serif;
