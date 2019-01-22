@@ -57,6 +57,11 @@ a{
   text-decoration: none;
 }
 
+.brainstorm{
+  width: 50%;
+  height: 50%;
+}
+
 .footlink{
   padding-top: 20px;
   color: white;
