@@ -116,3 +116,12 @@ input[type=reset]:hover {
   opacity:1;
   transition:all 1s;
 }
+footer {
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d3c4be;
+  text-align: center;
+}
