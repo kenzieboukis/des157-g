@@ -1,0 +1,118 @@
+/* Mackenzie Boukis
+MadLibs CSS*/
+
+.container{
+  display: grid;
+}
+
+body {
+background-image: url("photos/skull.png");
+background-size: 300px 400px;
+font-family: Montserrat;
+padding-top: 100px;
+max-width: 50%;
+}
+
+h1{
+  text-align: center;
+  color: pink;
+  background-color: #222;
+  margin-left: 8em;
+  width:50%;
+  border-radius: 18px;
+}
+
+#formSection {
+  grid-column: 1;
+  width: 50%;
+  min-width: 400px;
+  padding: 1em;
+  border-radius: 18px;
+  margin-left: 12em;
+  background-color: #222;
+  color: antiquewhite;
+}
+
+fieldset {
+  display: grid;
+  width: 90%;
+  padding: 1em;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  grid-gap: 1%;
+  border: 0; /* remove default */
+  margin-bottom: 0;
+}
+
+/* Style inputs */
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: pink;
+}
+
+input[type=reset]:hover {
+  background-color: pink;
+}
+
+#msgSection {
+  grid-column: 2;
+  width: 100%;
+  padding: 4em;
+  margin: 2em 20em;
+  border-radius: 25px;
+  background-color:pink;
+  position: relative;
+  margin: auto;
+  margin-left: 20px;
+}
+
+#myMsg {
+  font-size:1.15em;
+}
+
+.hide {
+  position:relative;
+  left:-10%;
+  opacity:0;
+  transition:all 1s;
+}
+
+.show {
+  position:relative;
+  left:0;
+  opacity:1;
+  transition:all 1s;
+}

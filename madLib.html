@@ -1,0 +1,57 @@
+<!--  Mackenzie Boukis
+MAD LIB HTML -->
+
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head>
+<meta charset="utf-8">
+<title> Hotel Mad Libs </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!--  LINK TO normalize -->
+<link rel="stylesheet" href="normalize.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+</head>
+
+
+<body>
+  <div class='container'>
+  <header>
+    <h1> Hotel MadLibs </h1>
+  </header>
+
+<section id="formSection">
+  <form>
+    <fieldset>
+      <legend></legend>
+      <label for="noun"> Noun </label><input type="text" name="noun" id="noun" required/>
+      <label for="nounTwo"> Noun </label><input type="text" name="nounTwo" id="nounTwo" required/>
+      <label for="adjective"> Adjective </label><input type="text" name="adjective" id="adjective" required/>
+      <label for="verb"> ing Verb </label><input type="text" name="verb" id="verb" required/>
+      <label for="length"> A Length </label><input type="text" name="length" id="length" required/>
+      <label for="adjectiveTwo"> Adjective </label><input type="text" name="adjectiveTwo" id="adjectiveTwo" required/>
+      <label for="state"> State </label><input type="text" name="state" id="state" required/>
+    </fieldset>
+
+    <fieldset>
+      <div>
+      <input type="reset" value="reset" id="r" />
+      <input type="submit" value="submit" id="s" />
+      </div>
+    </fieldset>
+
+  </form>
+</section>
+
+  <section id="msgSection" class="hide">
+    <p id="myMsg"> </p>
+  </section>
+
+  <!-- link to js-->
+  <script src="madlibs.js"></script>
+</div>
+
+  </body>
+
+</html>
