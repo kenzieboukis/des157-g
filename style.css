@@ -68,6 +68,12 @@ p{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.persona{
+  position: relative;
+  text-align: left;
+}
+
 footer {
   position: fixed;
   height: 50px;
