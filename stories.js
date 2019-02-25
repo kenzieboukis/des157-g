@@ -6,7 +6,7 @@ var story;
 
 function preload() {
   // load the sound
-  story = loadSound("http://localhost:8000/Desktop/sonia.mp3");
+  story = loadSound("sonia.mp3");
 }
 
 function setup() {
