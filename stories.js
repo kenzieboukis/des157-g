@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup() {
-  story.play();
+  story.puase();
 }
 
 function mousePressed() {
