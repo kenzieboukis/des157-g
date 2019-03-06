@@ -74,6 +74,11 @@ p{
   text-align: left;
 }
 
+.candc{
+  text-align: left;
+  margin-left: 100px;
+}
+
 footer {
   position: fixed;
   height: 50px;
