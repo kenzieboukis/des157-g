@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+<title> Israel and Palestine: Unpacked </title>
+<!-- link to google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+<meta charset='utf-8'>
+<!-- link to CSS -->
+<link rel="stylesheet" type="text/css" href="finalStyle.css">
+<!-- <link to normalize> -->
+<link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+<!--link to JS library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+</head>
+
+<body>
+
+<div class= pagecontainer>
+<div class=container>
+
+<!-- Menu dropdown -->
+<header>
+  <ul>
+    <li> <a href="#stories">Stories</a> </li>
+    <li> <a href="#map">Map</a> </li>
+    <li> <a href="#faq">FAQ</a> </li>
+  </ul>
+</header>
+
+<!-- scroll section -->
+<scroll-container>
+
+
+<section id="welcome">
+  <h1 id='intro'> Israel and Palestine: Unpacked </h1>
+</section>
+
+<!-- stories sections-->
+
+<scroll-page id="stories">
+    <div class="israeli">
+      <h3>Nir's Story </h3>
+      <p id='storyText'> "The contested borders between Israel and Palestine is extremely complicated and people who are not living there do not know the full picture. I believe the people controlling Palestine are part of a terror group that do not represent the Palestinian people. I think there is a big hope for peace between us. My family has a fireplaces company our factory is in Palestine and 80 % of the workers from Palestine. There is a new generation in Palestine they don't like their situation anymore. I think both sides just want <strong> peace </strong> now."
+        <br>
+      </p>
+
+    </div>
+    <div class="palestinian">
+    <h3> Eman's Story </h3>
+    <p id='storyText2'> "Some days I am proud of my ethnicity and some days I tell the Starbucks employee that my name is Emma to avoid questions. The conflict between Israel and Palestine is complicated. There was once peace before the European Zionists moved into our land. It was in 1948 when Israel became a state that the great catastrophe (Nakba) occured. The Israeli people give privaleges to those who are Jewish and not to us Palestinians. Segregation and apratheid are at its finest on Palestinian lands. We are treated so poorly that to call us second class would be an understatement. I do believe there is <strong> hope for peace </strong> if only both sides could sit down together to discuss a reasonable solution. For me, it is clear the Israelis are not looking for a reasonable solution."</p>
+    </div>
+</scroll-page>
+
+<section>
+  <h2 id="addStory"> Click to Add Your Story </h2>
+<section id="formSection">
+  <form>
+    <fieldset>
+      <legend></legend>
+      <label for="name"> Name </label><input type="text" name="name" id="name" required/>
+      <label for="email"> Email</label><input type="text" name="email" id="email" required/>
+      <label for="yourStory"> Type Your Story </label><input type="text" name="yourStory" id="yourStory" required/>
+    </fieldset>
+
+    <fieldset>
+      <div>
+      <input type="reset" value="reset" id="r" />
+      <input type="submit" value="submit" id="s" />
+      </div>
+    </fieldset>
+
+  </form>
+</section>
+</section>
+
+<section id="msgSection" class="hide">
+  <p id="myMsg"> </p>
+</section>
+
+
+<!-- map section -->
+
+<scroll-page id="map">
+    <h2> explore the region </h2>
+    <p class='mapText'> click on starred parts of the map to learn more </p>
+    <img class="zoom" id="nir" src='photos/star.png' alt='star'>
+    <img class="zoom" id="westBank" src='photos/star.png' alt='star'>
+    <img class="zoom" id="gazaStrip" src='photos/star.png' alt='star'>
+    <img class="zoom" id="jerusalem" src='photos/star.png' alt='star'>
+    <img id="nirText" src='photos/nirText.png' alt='nir'>
+    <img id="westBankText" src="photos/westBankText.png"  alt='bank'>
+    <img id="gazaStripText" src="photos/gazaStripText.png" alt='gaza'>
+    <img id="jerusalemText" src="photos/jerusalemText.png" alt='jerusalem'>
+</scroll-page>
+
+
+<!-- FAQ section -->
+<scroll-page id="faq">
+    <h2 id='time'> find more answers </h2>
+    <p id="clickMe"> theres so much to learn </p>
+    <a id="bouncing-arrow" href="#"></a>
+
+  <section id="openfaq">
+    <p> Q. Where is Israel and Palestine? <br>
+        <br>
+        A. <em>Israel is located on the banks of the Middle East next to ___ and ____. Palestine is a nation of people within the country of Israel. They reside on the West Bank and the Gaza Strip. The location of Palestine is visible in black on the map above.</em>
+        <br>
+        <br>
+        Q. What are the differences between Israeli and Palestinian people?<br><br>
+        A. <em> The Israeli people are those who reside in the Israeli parts of Israel. They are a widly Jewish people and claim to have resided in the areas for centuries. The Israeli people technically have controll over all of the land area of Israel. The Palestinian people are those living in the areas of Palestine on the West Bank and the Gaza Strip. Palestinians are widly Muslim in faith.</em>
+        <br>
+        <br>
+        Q. What is the conflict about? <br><br>
+        A. <em>The conflict is largely over land. The Palestinian people are fighting for their own state but Israel has been hesitant. A huge issue facing quick resolution is the distribution of land ownership between the two nations. The Palestinian people live in two main sections on either side of the country of Israel. Figuring out how to split up the land without making a fragmented nation and allowing the Palestinian people to move from one section of their country to the other poses a huge problem. Israel has offered solutions to Palestine but the Palestinians have repeatedly denied to settle for Israel's offers. </em>
+        <br>
+        <br>
+        Q. What side is America on?<br><br>
+        A. <em>The United States has openely and actively supported Israel in this conflict for years. The US sends millions of dollars worth of aid every year to Israel. The United States seems to support Israel because the US is dedicated to protecting democracy and has unfairly demonized Muslim Nations. </em>
+        <br>
+        <br>
+        Q. What began the conflict?<br><br>
+        A. <em>The conflict began after World War II when European's we're trying to find a place for muslim people to settle down. While relocating the people known as Palestinians, they also declared Israel a state. This gave Israel the power to control the land that was also being inhabited by the Palestinian people. The leaders of Israel did not bestow the same level of priveledge on the Palestinian people as they did the Jewish people. This led to an outcry by the Palestinians for their own land. </em>
+  </section>
+</scroll-page>
+</scroll-container>
+
+<footer>
+  <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+</footer>
+</div>
+</div>
+<!-- link to JS file -->
+<script src="final.js"></script>
+</body>
+
+</html>

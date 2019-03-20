@@ -1,0 +1,396 @@
+
+scroll-container {
+  display: block;
+  width: 100%;
+  height: 2000px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: #333333;
+}
+
+scroll-page {
+  display: block;
+  width:100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  max-width: 98%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+  z-index: 1;
+  padding-top: 100px;
+  font-size: 1em;
+  text-align: center;
+  color: #000000;
+  font-family:'Special Elite', cursive;
+  letter-spacing: 4px;
+}
+
+h3{
+  margin-top: 20px;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  font-family:'Special Elite', cursive;
+  letter-spacing: 4px;
+}
+
+header{
+  position: fixed;
+  top:0;
+  left: 10px;
+  width: 100%;
+  text-align: center;
+  opacity: .5;
+  z-index: 1;
+}
+
+#welcome{
+  background-image: url(photos/head.png);
+  display: flex;
+  padding-top:100px;
+  text-align: center;
+  height: 550px;
+  background-color: #333333;
+  font-size: 3em;
+}
+
+#intro{
+  opacity: 0;
+  margin-top: 200px;
+  margin-left: 50px;
+  color: black;
+  font-family:'Special Elite', cursive;
+  animation-name: fadeIn;
+  animation-delay: .5s;
+  animation-duration: 200s;
+
+}
+
+#stories{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 900px;
+  margin-bottom: 250px;
+}
+
+#storyText{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 170px;
+}
+
+#storyText2{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right: 180px;
+}
+#addStory{
+  font-family:'Special Elite', cursive;
+  font-size: 2em;
+  color: white;
+}
+
+#formSection {
+  display: none;
+  width: 50%;
+  min-width: 400px;
+  padding: 1em;
+  border-radius: 18px;
+  margin-left: 12em;
+  background-color: #222;
+  color: antiquewhite;
+  font-family: 'Quicksand', sans-serif;
+}
+
+fieldset {
+  width: 90%;
+  padding: 1em;
+  justify-content: center;
+  border: 0; /* remove default */
+  margin-bottom: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Style inputs */
+  input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 25%;
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #800000;
+}
+
+input[type=reset]:hover {
+  background-color: #800000;
+}
+
+#msgSection {
+  width: 50%;
+  padding: 1em;
+  margin: 1em 10em;
+  border-radius: 25px;
+  background-color:#800000;
+  position: relative;
+  margin: auto;
+  margin-left: 195px;
+  margin-right: 230px;
+
+}
+
+#myMsg {
+  font-size:1.15em;
+}
+
+.hide {
+  position:relative;
+  left:-10%;
+  opacity:0;
+  transition:all 1s;
+}
+
+.show {
+  position:relative;
+  left:0;
+  opacity:1;
+  transition:all 1s;
+}
+#map{
+  background-image: url(photos/palestine.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  height: 900px;
+}
+
+#faq{
+  position: relative;
+  height: 1200px;
+  background-color: #d3c4be;
+}
+
+#clickMe{
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  opacity: 0;
+  transition: all .2s;
+  margin-left: 420px;
+}
+
+#palestine{
+  display: none;
+  position: inherit;
+}
+
+#openfaq{
+  display: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #d3c4be;
+  margin: 100px;
+}
+
+#nirText{
+  display: none;
+  position: relative;
+  margin-right: 600px;
+  top:-50px;
+  left:50px;
+}
+
+#westBankText{
+  display:none;
+  position: relative;
+  margin-right: 600px;
+  top:100px;
+  left:100px;
+}
+
+#gazaStripText{
+  display: none;
+  position: relative;
+  top:0px;
+  margin-left: 980px;
+}
+
+#jerusalemText{
+  display:none;
+  position: relative;
+  top:50px;
+  margin-left:980px;
+}
+
+.mapText{
+  text-align: center;
+  margin-top: -40px;
+}
+
+.israeli{
+  margin-top: 250px;
+  background-image: url(photos/pattern2.png);
+  background-color: #333333;
+  grid-column-start: 1;
+  height: 900px;
+  text-align: center;
+}
+.palestinian{
+  margin-top: 250px;
+  background-color: #333333;
+  background-image: url(photos/pattern1.png);
+  border-width: medium;
+  grid-column-start: 2;
+  height: 900px;
+  text-align: center;
+}
+#nir{
+  position: relative;
+  left: 40px;
+  top: 80px;
+}
+
+#gazaStrip{
+  position: relative;
+  left: 10px;
+  top: 80px;
+}
+
+#jerusalem{
+  position: relative;
+  left: -75px;
+  top: 120px;
+}
+
+#westBank{
+  position: relative;
+  left: -66px;
+  top: 190px;
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin: 30px;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Evrything below this is animation */
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#bouncing-arrow {
+    display: block;
+   	position: absolute;
+   	left:50%;
+   	bottom:0;
+   	margin-top:-25px;
+   	margin-left:-25px;
+   	margin-bottom: 5px;
+   	height:50px;
+   	width:50px;
+   	background: url(https://cdn1.iconfinder.com/data/icons/arrows-15/96/Arrow-Down2-512.png);
+   	background-size:contain;
+   	-webkit-animation:bounce 1.0s infinite;
+}
+
+@-webkit-keyframes bounce {
+	  0%       { top:225px; }
+   	25%      { top:228px; }
+   	50%      { top:232px; }
+    75%      { top:237px; }
+   	100%     { top:220;}
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
